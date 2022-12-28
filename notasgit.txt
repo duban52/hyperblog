@@ -23,3 +23,8 @@ Antes que nada, git debe configurarse, para estado
 
     git config --global user.name "Duban Restrepo"
     git config --global user.email "duban52@gmail.com"
+
+Siempre que se realice un cambio se debe añadir al git
+una manera sencilla es 
+
+    git add .
