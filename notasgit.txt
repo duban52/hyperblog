@@ -1,0 +1,25 @@
+Notas del curso de git
+
+Despues de crear el repositorio, se debe agregar a git
+
+    git init
+
+Para consultar el estado 
+
+    git status
+
+
+Cuando se quiere agregar un archivo dentro del repositorio
+
+    git add "nombre del archivo"
+
+Para guardar los cambios se debe hacer un commit, se recomienda comentarlo
+para saber de que se trata el cambio en el archivo
+
+    git commit -m "mensaje" 
+
+
+Antes que nada, git debe configurarse, para estado
+
+    git config --global user.name "Duban Restrepo"
+    git config --global user.email "duban52@gmail.com"
