@@ -28,3 +28,7 @@ Siempre que se realice un cambio se debe añadir al git
 una manera sencilla es 
 
     git add .
+
+Para ver el historial de los cambios 
+
+    git show
