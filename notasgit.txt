@@ -32,3 +32,23 @@ una manera sencilla es
 Para ver el historial de los cambios 
 
     git show
+
+Para ver el historial de lo que se ha hecho en cada archivo
+
+    git diff "código del commit"
+
+
+El staging es el lugar donde se guardan temporalmente los cambios, para luego ser llevados definitivamente al repositorio. El repositorio es el lugar donde se guardan todos los registros de los cambios realizados a los archivos.
+
+Para iniciar un repositorio, o sea, activar el sistema de control de versiones de Git en tu proyecto, solo debes ejecutar el comando git init.
+
+Para volver en el tiempo a versiones anteriores
+
+    git log -> para ver los commits realizados
+
+    git reset "código del commit" --hard (regresa hasta el commit del [SHA-1]
+    Donde el SHA-1 es el identificador del commit)
+   
+    git reset --soft [SHA 1]: elimina los cambios hasta el staging area
+    
+    git reset --mixed [SHA 1]: elimina los cambios hasta el working area
